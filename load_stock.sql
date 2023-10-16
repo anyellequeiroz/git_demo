@@ -4,3 +4,4 @@ SELECT
     , STOCK
 FROM course14.circle_stock_clean
 GROUP BY MODEL_TYPE
+ORDER BY STOCK DESC
